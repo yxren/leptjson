@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/athena/C/leptjson/leptjson.h
+
+/Users/athena/C/leptjson/test.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+leptjson.h
+/Users/athena/C/leptjson/leptjson.h
+
